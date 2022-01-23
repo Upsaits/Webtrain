@@ -37,3 +37,5 @@ obj/
 _ReSharper*/
 [Ii]nstalling/
 Temp/
+.vs/
+packages/
