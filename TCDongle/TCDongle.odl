@@ -1,0 +1,81 @@
+﻿// TCDongle.odl : IDL-Quellcode für das ActiveX-Steuerelement-Projekt.
+
+// Diese Datei wird mit dem MIDL-Tool bearbeitet,
+// um die Typbibliothek (TCDongle.tlb)
+// für TCDongle.ocx zu erzeugen.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(693D8265-2CF9-478F-B6AE-C01186DFA73B), version(1.0),
+  helpfile("TCDongle.hlp"),
+  helpstring("TCDongle ActiveX-Steuerelement-Modul"),
+  control ]
+library TCDONGLELib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primäre Dispatch-Schnittstelle für CTCDongleCtrl
+
+	[ uuid(A8127788-65E0-4A8A-8C87-B425F6968283),
+	  helpstring("Dispatch-Schnittstelle für TCDongle Control"), hidden ]
+	dispinterface _DTCDongle
+	{
+		properties:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Eigenschaften.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_PROP(CTCDongleCtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Methoden.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_METHOD(CTCDongleCtrl)
+			[id(1)] long GetDongleID();
+			[id(2)] boolean ReadDongle();
+			[id(3)] boolean ReadLicenceFile(BSTR fileName,long *pDongleId);
+			[id(4)] boolean WriteLicenceFile(BSTR fileName);
+			[id(5)] void GetLicence(short* pLicGrp, short* pLicType);
+			[id(6)] void SetLicence(short licGrp, short licType);
+			[id(7)] void GetLicenceTypeValue(long* pLicTypeVal);
+			[id(8)] void SetLicenceTypeValue(long licTypeValue);
+			[id(9)] void GetUpdate(long* pMajorId, long* pMinorId);
+			[id(10)] void SetUpdate(long majorId, long minorId);
+			[id(11)] boolean WriteDongle();
+			[id(12)] void SetDongleID(long dongleID);
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Ereignis-Dispatch-Schnittstelle für CTCDongleCtrl
+
+	[ uuid(2D479C09-288D-4471-B373-8B9EBF6563D6),
+	  helpstring("Ereignisschnittstelle für TCDongle Control") ]
+	dispinterface _DTCDongleEvents
+	{
+		properties:
+			//  Ereignis-Schnittstelle hat keine Eigenschafte.
+
+		methods:
+			// HINWEIS - Der Klassen-Assistent verwaltet hier Informationen über die Ereignisse.
+			//    Lassen Sie äußerste Vorsicht walten, falls Sie diesen Abschnitt bearbeiten.
+			//{{AFX_ODL_EVENT(CTCDongleCtrl)
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Klassen-Informationen für CTCDongleCtrl
+
+	[ uuid(97476B6F-32C3-41D5-BD86-EFE3286E3082),
+	  helpstring("TCDongle Control"), control ]
+	coclass TCDongle
+	{
+		[default] dispinterface _DTCDongle;
+		[default, source] dispinterface _DTCDongleEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

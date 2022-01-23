@@ -1,0 +1,19 @@
+<dotnetbar fullmenus="false" fullmenushover="true" tooltips="true" scintooltip="false" animation="6">
+  <items />
+  <bars>
+    <bar name="MainMenu" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Main Menu" dockline="0" dockoffset="0" grabhandle="0" menubar="true" stretch="true" style="2" wrapdock="false" wrapfloat="true" state="2" dockside="3" visible="true" custom="false" canhide="false" imagesize="0" itemsp="0" themes="false" layout="0" eqbutton="false">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bSystem" text="&amp;System" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" aname="bSystem" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <subitems>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="ButtonItem2" text="&amp;Anmelden/Benutzer wechseln" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images>
+                <image type="default">iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAABEhJREFUSEulVi2UqzgYZd1IZB2R44isA4dMHDK4jguubxV1rAPXceAqwXUddTsO3NZR+VyRz2VvSIfOb8s7m7knJ6Tk3u83zB/KUtbskacHvBv/6c8+YYFezUSWNs1+ALCYeURbP/NVkB4aNSFL65kHZwkY2zX7i0aLuYEfszTuC2jbX3lBbdB1GnM07ghkGSIzTLztyHvBEYv7ftwSyLPmQv2etz+qC07qdFJZVt3Ix7cCYIftV3u7V9KRHbwTbvvxtQDY34ZiMvktL9Zm/3Y+vhAYIzN0r3HI/yqLbV0WDeZ+NHzSw2t1QqqNd3hmZvE5Vh8FtO1TiI9KjCOOY8xe4PmBD/Yx1Tp65Zp0O//cFueuxNzvGHY+aLwTGCMzaANHS4WINHuSZNmmKiqAC+5SCgEkv9nYsBoCfSWMxpd+XAXA/jZ7kYzZOKSU0ADYkvqPxCWOfMqQfwgcUkfjmWE+pVaful3mFE9WvL7W1UXARGbKIZQopT7zWcDo0hOUJI9Ws7S6J6cKnSQkzf4MLtVFw94HVMMnQFjKIl4XJlb6D+yG+lIVR+USSh6Jt9RBzwL7nLlq66pinLduHpJqd4LVas/UnmtAQC/w6CMNYM/SFjKa/hp3FNxrzTkLBwJwAovzxtXIRmxc40RZjAKVryrvih3FDvwzAkbDQh/qohx79fVKGMiC2AubENddWIZ0Qrsi8AACOkRg3PlvQNWWRMLTOfvRJj8O0SrWIRo1wD4cgEaj3PU2xsJ2HnTcW0E0Vno+hNoDHEF/qIqq4i1cxEeuJNgBsDsLfkky7kXkbUJdncFvPViASe8EpCQWcZ73uGURBFTOJXqZi/oRwkfTwHaUt23zdx8caNT7M6gB5BBOIA3m0wiNklqgxizwyUTf/UjiYxztJVoEZdOubRSr80R4KqTU7LD9WkVT7yVpDV7NXmjkz53PcgtRBemDbeCy1hEFb0R+ymUj25/D4d9+GJQoZPQSiRfhr5mx/QsBbKFHDDWC4MueJ0okimcDdrJqKHuFzc12sJcdPOB/8+HXoJSquxrsyTHhL5wWFK58K2A0QMdWPVsrmSjQUXHKO1WfVPNTUdFhM5KKrHNvT2H++ZdiO64j1kWQ9BqPJITDrqnRPl+BKGQqFROaCG+CkcoW7PAAYnjkKwiU7B8/3idJU/IDh+2Ywe5Wrv1sM8luCeA3h529cGArzS7WWkZsewDUgB8qexVDAAEhWwJ2UMMhsOPRWlviSdwRsNnJCXov1H5w+CER/cFhnSeUzvOywl3rrTyNxPNSz099zDSh2EEr4EK8I4CKomFFgtINKpcBNdY0yJlIcBi9KsJSQ8QuiXhQsRFY6DUrbyV5+k2EGe7qDwP9yVjtA+AK5VTv33337/9fhJPRquAh7Ko1dVAZgN16uNb7/xIwGobXW2rMsf1ODj5bJETuB6W3LGfa/tsCOAANgJD4u4B83v8PgNESdevDWy8AAAAASUVORK5C</image>
+              </images>
+            </item>
+          </subitems>
+        </item>
+      </items>
+    </bar>
+  </bars>
+  <popups />
+</dotnetbar>

@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1164EE53-12A9-4A83-927F-F2678FCC8784}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Resources\main.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TrainConcept</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SoftObject.TrainConcept</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG;SKIN_WEBTRAIN</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;SKIN_WEBTRAIN</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SKIN_WEBTRAIN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\release\</OutputPath>
+    <DefineConstants>TRACE;SKIN_WEBTRAIN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSLSim, Version=1.0.0.2, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\release\CSLSim.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=11.5.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v18.1.UI, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Design.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v18.1.Drawing, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v18.1.Export">
+      <Name>DevExpress.RichEdit.v18.1.Export</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v18.1.Core">
+      <Name>DevExpress.Printing.v18.1.Core</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.1">
+      <Name>DevExpress.Data.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.1">
+      <Name>DevExpress.Utils.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.1.UI, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v18.1">
+      <Name>DevExpress.XtraBars.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v18.1.Design">
+      <Name>DevExpress.XtraBars.v18.1.Design</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.1">
+      <Name>DevExpress.XtraEditors.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.1.Design">
+      <Name>DevExpress.XtraEditors.v18.1.Design</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v18.1">
+      <Name>DevExpress.XtraNavBar.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v18.1.Design">
+      <Name>DevExpress.XtraNavBar.v18.1.Design</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v18.1">
+      <Name>DevExpress.XtraPrinting.v18.1</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v18.1.Design">
+      <Name>DevExpress.XtraPrinting.v18.1.Design</Name>
+      <AssemblyFolderKey>hklm\devexpress.net.v3</AssemblyFolderKey>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v18.1">
+      <Name>DevExpress.XtraTreeList.v18.1</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\Components\zip-v1.9\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Web.Administration, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Administration.7.0.0.0\lib\net20\Microsoft.Web.Administration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.98.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SOProgUtils\DotNet\SQLite\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Drawing.Design">
+      <Name>System.Drawing.Design</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Log" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="TXTextControl, Version=19.0.1200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TXTextControl.Windows.Forms, Version=19.0.400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TXTextControl.Windows.Forms.Design, Version=19.0.103.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ActivateableUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ActivateableUserControl.Designer.cs">
+      <DependentUpon>ActivateableUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppHelpers.cs" />
+    <Compile Include="Adapter\ClassroomAdapterImpl.cs" />
+    <Compile Include="ContentManagerBridge.cs" />
+    <Compile Include="CustomFlatViewInfoRegistrator.cs" />
+    <Compile Include="Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNewTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNewTest.designer.cs">
+      <DependentUpon>FrmNewTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSelectIPAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSelectIPAddress.Designer.cs">
+      <DependentUpon>FrmSelectIPAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSelectServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSelectServer.Designer.cs">
+      <DependentUpon>FrmSelectServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppHandler.cs" />
+    <Compile Include="ApplicationData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentBrowser.cs" />
+    <Compile Include="Controls\ContentControlBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentControlBar.designer.cs">
+      <DependentUpon>ContentControlBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContentEditPageEditor.cs" />
+    <Compile Include="Controls\ContentEditTabPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentEditTabPage.designer.cs">
+      <DependentUpon>ContentEditTabPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultContentManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlCenter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlCenter.designer.cs">
+      <DependentUpon>ControlCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNewClassroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNewClassroom.designer.cs">
+      <DependentUpon>FrmNewClassroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adapter\CTSClientAdapterImpl.cs" />
+    <Compile Include="Adapter\CTSServerAdapterImpl.cs" />
+    <Compile Include="Forms\FrmAddMaps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAddMaps.designer.cs">
+      <DependentUpon>FrmAddMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBrowser.designer.cs">
+      <DependentUpon>FrmBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCertification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCertification.designer.cs">
+      <DependentUpon>FrmCertification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmChangePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmChangePwd.designer.cs">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmChatroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmChatroom.designer.cs">
+      <DependentUpon>FrmChatroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmContent.Designer.cs">
+      <DependentUpon>FrmContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContentExamingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentLearningControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentLearningControl.designer.cs">
+      <DependentUpon>ContentLearningControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContentOverviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentOverviewControl.designer.cs">
+      <DependentUpon>ContentOverviewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContentTestingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCSLSim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCSLSim.designer.cs">
+      <DependentUpon>FrmCSLSim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCSLSimEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCSLSimEdit.designer.cs">
+      <DependentUpon>FrmCSLSimEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCTSServerConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCTSServerConsole.designer.cs">
+      <DependentUpon>FrmCTSServerConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDongleState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDongleState.designer.cs">
+      <DependentUpon>FrmDongleState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEditCertification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEditCertification.designer.cs">
+      <DependentUpon>FrmEditCertification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEditContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEditContent.designer.cs">
+      <DependentUpon>FrmEditContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDEManagerBridge.cs" />
+    <Compile Include="Controls\LibraryOverview.designer.cs">
+      <DependentUpon>LibraryOverview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppCommunication.cs" />
+    <Compile Include="Controls\TestAdjustmentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TestAdjustmentPanel.Designer.cs">
+      <DependentUpon>TestAdjustmentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adapter\UserAdapterImpl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmChooseTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmChooseTest.Designer.cs">
+      <DependentUpon>XFrmChooseTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmEditKeywordAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmEditKeywordAction.designer.cs">
+      <DependentUpon>XFrmEditKeywordAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEditTextAction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEditTextAction.designer.cs">
+      <DependentUpon>FrmEditTextAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmEditUser.designer.cs">
+      <DependentUpon>FrmEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmInputIPAdress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmInputIPAdress.designer.cs">
+      <DependentUpon>FrmInputIPAdress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmChooseLanguage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmChooseLanguage.designer.cs">
+      <DependentUpon>FrmChooseLanguage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLMEditContentNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLMEditContentNew.Designer.cs">
+      <DependentUpon>FrmLMEditContentNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNewLearnmap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNewLearnmap.designer.cs">
+      <DependentUpon>FrmNewLearnmap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNewNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNewNotice.Designer.cs">
+      <DependentUpon>FrmNewNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistration.designer.cs">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSetAvatar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSetAvatar.Designer.cs">
+      <DependentUpon>FrmSetAvatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSetupWizard.designer.cs">
+      <DependentUpon>FrmSetupWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTestReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTestReport.designer.cs">
+      <DependentUpon>FrmTestReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContentWorkoutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentWorkoutControl.designer.cs">
+      <DependentUpon>ContentWorkoutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperMacros.cs" />
+    <Compile Include="Interfaces\IContentManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DefaultIDEManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IIDEManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IContentNavigationCtrl.cs" />
+    <Compile Include="Adapter\LearnmapAdapterImpl.cs" />
+    <Compile Include="LearnmapBuilder.cs" />
+    <Compile Include="Controls\LibraryOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ListViewSuperTooltipProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Adapter\NoticeAdapterImpl.cs" />
+    <Compile Include="PicturePoolHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\QuestionEditTabPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSetupWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\TCLocalServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TCServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TCServiceBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserProgressInfoManager.cs" />
+    <Compile Include="Controls\XContentTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XContentTree.designer.cs">
+      <DependentUpon>XContentTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmClassroomEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmClassroomEdit.designer.cs">
+      <DependentUpon>XFrmClassroomEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmContentEditSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmContentEditSettings.Designer.cs">
+      <DependentUpon>XFrmContentEditSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmEditSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmEditSettings.Designer.cs">
+      <DependentUpon>XFrmEditSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmExportContentModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmExportContentModule.Designer.cs">
+      <DependentUpon>XFrmExportContentModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmImportContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmImportContent.Designer.cs">
+      <DependentUpon>XFrmImportContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmImportContentModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmImportContentModule.Designer.cs">
+      <DependentUpon>XFrmImportContentModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmImportQuestions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmImportQuestions.Designer.cs">
+      <DependentUpon>XFrmImportQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmMapsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmMapsEdit.designer.cs">
+      <DependentUpon>XFrmMapsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmOnlineUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmOnlineUsers.designer.cs">
+      <DependentUpon>XFrmOnlineUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XfrmPdfBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XfrmPdfBrowser.Designer.cs">
+      <DependentUpon>XfrmPdfBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmSelectContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmSelectContent.Designer.cs">
+      <DependentUpon>XFrmSelectContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmUserEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmUserEdit.designer.cs">
+      <DependentUpon>XFrmUserEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmUsersChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmUsersChoose.Designer.cs">
+      <DependentUpon>XFrmUsersChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XMapsTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\XMapsTree.designer.cs">
+      <DependentUpon>XMapsTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XNoticeTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XNoticeTreeView.Designer.cs">
+      <DependentUpon>XNoticeTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XTestTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\XTestTreeView.designer.cs">
+      <DependentUpon>XTestTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\XUsersTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\XUsersTree.designer.cs">
+      <DependentUpon>XUsersTree.cs</DependentUpon>
+    </Compile>
+    <None Include="Content\Templates.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ContentEditRecord.datasource" />
+    <None Include="Properties\DataSources\ContentTreeViewRecord.datasource" />
+    <None Include="res\Webtrain\BITMAPS\AboutBackground.gif" />
+    <None Include="Resources\AboutBackgroundImg.bmp" />
+    <None Include="Resources\Assistant1.png" />
+    <None Include="Resources\anim1.png" />
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNewTest.resx">
+      <DependentUpon>FrmNewTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSelectServer.resx">
+      <DependentUpon>FrmSelectServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentControlBar.resx">
+      <DependentUpon>ContentControlBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentEditTabPage.resx">
+      <DependentUpon>ContentEditTabPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlCenter.resx">
+      <DependentUpon>ControlCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNewClassroom.resx">
+      <DependentUpon>FrmNewClassroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAddMaps.resx">
+      <DependentUpon>FrmAddMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmBrowser.resx">
+      <DependentUpon>FrmBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCertification.resx">
+      <DependentUpon>FrmCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmChangePwd.resx">
+      <DependentUpon>FrmChangePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmChatroom.resx">
+      <DependentUpon>FrmChatroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmContent.resx">
+      <DependentUpon>FrmContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentExamingControl.resx">
+      <DependentUpon>ContentExamingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentLearningControl.resx">
+      <DependentUpon>ContentLearningControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentOverviewControl.resx">
+      <DependentUpon>ContentOverviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentTestingControl.resx">
+      <DependentUpon>ContentTestingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCSLSim.resx">
+      <DependentUpon>FrmCSLSim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCSLSimEdit.resx">
+      <DependentUpon>FrmCSLSimEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCTSServerConsole.resx">
+      <DependentUpon>FrmCTSServerConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmDongleState.resx">
+      <DependentUpon>FrmDongleState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEditCertification.resx">
+      <DependentUpon>FrmEditCertification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEditContent.resx">
+      <DependentUpon>FrmEditContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\Webtrain\resources_EditorTemplates.resx" />
+    <EmbeddedResource Include="Controls\TestAdjustmentPanel.resx">
+      <DependentUpon>TestAdjustmentPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmChooseTest.resx">
+      <DependentUpon>XFrmChooseTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmEditKeywordAction.resx">
+      <DependentUpon>XFrmEditKeywordAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEditTextAction.resx">
+      <DependentUpon>FrmEditTextAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmEditUser.resx">
+      <DependentUpon>FrmEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmInputIPAdress.resx">
+      <DependentUpon>FrmInputIPAdress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmChooseLanguage.resx">
+      <DependentUpon>FrmChooseLanguage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLMEditContentNew.resx">
+      <DependentUpon>FrmLMEditContentNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNewLearnmap.resx">
+      <DependentUpon>FrmNewLearnmap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNewNotice.resx">
+      <DependentUpon>FrmNewNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistration.resx">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSetAvatar.resx">
+      <DependentUpon>FrmSetAvatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTestReport.resx">
+      <DependentUpon>FrmTestReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContentWorkoutControl.resx">
+      <DependentUpon>ContentWorkoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LibraryOverview.resx">
+      <DependentUpon>LibraryOverview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\QuestionEditTabPage.resx">
+      <DependentUpon>QuestionEditTabPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\TrainConcept\resources_emco.resX">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\Webtrain\resources_softobject.resX">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSetupWizard.resx">
+      <DependentUpon>FrmSetupWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\XContentTree.resx">
+      <DependentUpon>XContentTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmClassroomEdit.resx">
+      <DependentUpon>XFrmClassroomEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmContentEditSettings.resx">
+      <DependentUpon>XFrmContentEditSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmEditSettings.resx">
+      <DependentUpon>XFrmEditSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmExportContentModule.resx">
+      <DependentUpon>XFrmExportContentModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmImportContent.resx">
+      <DependentUpon>XFrmImportContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmImportContentModule.resx">
+      <DependentUpon>XFrmImportContentModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmImportQuestions.resx">
+      <DependentUpon>XFrmImportQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmMapsEdit.resx">
+      <DependentUpon>XFrmMapsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmOnlineUsers.resx">
+      <DependentUpon>XFrmOnlineUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XfrmPdfBrowser.resx">
+      <DependentUpon>XfrmPdfBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmSelectContent.resx">
+      <DependentUpon>XFrmSelectContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmUserEdit.resx">
+      <DependentUpon>XFrmUserEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmUsersChoose.resx">
+      <DependentUpon>XFrmUsersChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\XMapsTree.resx">
+      <DependentUpon>XMapsTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\XNoticeTreeView.resx">
+      <DependentUpon>XNoticeTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\XTestTreeView.resx">
+      <DependentUpon>XTestTreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\XUsersTree.resx">
+      <DependentUpon>XUsersTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Resources\Close-32.png" />
+    <None Include="Resources\IconClose.ico" />
+    <None Include="Resources\Close 2.png" />
+    <None Include="Properties\DataSources\UserEditTreeRecord.datasource" />
+    <None Include="Resources\Assistant.png" />
+    <None Include="Resources\anim.png" />
+    <None Include="res\TrainConcept\ICONS\Compass.ico" />
+    <None Include="Resources\compass.ico" />
+    <None Include="Service References\TCLocalServiceReference1\QueryUpdate.wsdl" />
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetAdminInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetCustomerListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetLearnmapsToTransferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetLicenseIdByServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetPackagesToLaunchResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetSpotItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.GetUserListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.PutFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.SetServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.SetUserPasswordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.UpdateAvailableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCLocalServiceReference1\SoftObject.TrainConcept.TCLocalServiceReference1.WTSpotItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\QueryUpdate1.wsdl" />
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.ArrayOfString.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetAdminInformationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetCustomerListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetLearnmapsToTransferResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetLicenseIdByServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetPackagesToLaunchResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetSpotItemsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.GetUserListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.PutFileResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.SetServerIPAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.SetUserPasswordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.UpdateAvailableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TCServiceReference1\SoftObject.TrainConcept.TCServiceReference1.WTSpotItem.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlDiff\HtmlDiff.csproj">
+      <Project>{a8eab05d-c3fc-4f73-9e44-35bc8e27c1db}</Project>
+      <Name>HtmlDiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IISManager\IISManager.csproj">
+      <Project>{59aaa1b7-010c-4a6a-9af8-96e7817cbb64}</Project>
+      <Name>IISManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SOComponents\SOComponents.csproj">
+      <Project>{2FF8818C-0E83-4F79-8500-F12E2B54B8D1}</Project>
+      <Name>SOComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SOWPFCustomControls\SOWPFCustomControls.csproj">
+      <Project>{e6b7d2d7-713f-4657-8168-efc6400d78e5}</Project>
+      <Name>SOWPFCustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TCClientServerManager\TCClientServerManager.csproj">
+      <Project>{e8b170df-16d4-4a18-94cb-c85fc0d02ab1}</Project>
+      <Name>TCClientServerManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TCDongleWrapper\TCDongleWrapper.vcxproj">
+      <Project>{c8517606-d43f-4977-83cc-9cdec98dd4b3}</Project>
+      <Name>TCDongleWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TCLibraryManager\TCLibraryManager.csproj">
+      <Project>{b2561652-9da6-4935-8ef9-5075de2dd7d3}</Project>
+      <Name>TCLibraryManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Windows.WebBrowser\Windows.WebBrowser.csproj">
+      <Project>{87632ced-0f69-4669-b388-0c07f5c1b104}</Project>
+      <Name>Windows.WebBrowser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CertificationHeader.jpg" />
+    <None Include="res\Webtrain\BITMAPS\users\default.png" />
+    <None Include="res\TrainConcept\BITMAPS\users\default.png" />
+    <None Include="Service References\TCServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\TCServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\TCServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="res\Webtrain\BITMAPS\Workout\true.bmp" />
+    <None Include="res\Webtrain\ICONS\notes2.ico" />
+    <None Include="res\Webtrain\ICONS\file_pdf.ico" />
+    <None Include="Resources\Warning.bmp" />
+    <None Include="res\Webtrain\BITMAPS\warning-icon.png" />
+    <None Include="Service References\TCLocalServiceReference1\configuration91.svcinfo" />
+    <None Include="Service References\TCLocalServiceReference1\configuration.svcinfo" />
+    <None Include="Service References\TCLocalServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\main.ico" />
+    <None Include="res\Webtrain\ICONS\Webtrain_16x16.ico" />
+    <None Include="Service References\TCLocalServiceReference1\QueryUpdate.disco" />
+    <None Include="res\Webtrain\BITMAPS\Workout\false.bmp" />
+    <None Include="res\Webtrain\BITMAPS\Editor\en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_et.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_et_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_s_ent3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_s_ent3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_set2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_set2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent4_s_ent3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_ent4_s_ent3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_02.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_02_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en4_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en4_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en5_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_en5_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en4.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_en4_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_ent3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set2_en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set2_en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_02.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_02_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_02_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_02_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_03.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_03_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set4.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\set4_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_e_ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_e_ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en2_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en3_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en3_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en4.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en4_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en4_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en4_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en5.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en5_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en5_t.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en5_t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en6.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en6_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en6_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en6_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en7.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en7_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\T_en9.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\T_en9_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en11_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_en11_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent4.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent4_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent4_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent4_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent5.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent5_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent6.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_ent6_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en_s_en3_s_en.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en_s_en3_s_en_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en_set2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en_set2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en2_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en2_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_en2_s_en3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_ent2_s_ent3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_s_ent2_s_ent3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_1.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_1_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_s_en2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_s_en2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_s_ent2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_s_ent2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set2.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set2_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set3.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set3_02.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set3_02_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set3_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set4.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_set4_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\t_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\text.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\text_small.jpg" />
+    <Content Include="docs\NeuesKommando.txt" />
+    <None Include="res\Webtrain\ICONS\file_pptx.ico" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_01.jpg" />
+    <None Include="res\Webtrain\BITMAPS\Editor\s_t_01_small.jpg" />
+    <None Include="res\Webtrain\BITMAPS\ControlCenter\learnmap_done.png" />
+    <None Include="res\Webtrain\BITMAPS\ControlCenter\learnmap_undone.png" />
+    <None Include="Resources\settings.jpg" />
+    <None Include="res\Webtrain\BITMAPS\ControlCenter\settings.jpg" />
+    <None Include="Service References\TCServiceReference1\QueryUpdate1.disco" />
+    <None Include="res\Webtrain\BITMAPS\ControlCenter\learnmapServer.jpg" />
+    <None Include="Resources\xAPI.ico" />
+    <None Include="res\Webtrain\ICONS\file_xapi.ico" />
+    <Content Include="res\Webtrain\ICONS\pdf.ico" />
+    <Content Include="res\Webtrain\ICONS\webtrain.ico" />
+    <Content Include="res\Webtrain\ICONS\webtrain_small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\TCLocalServiceReference1\" />
+    <WCFMetadataStorage Include="Service References\TCServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

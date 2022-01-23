@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoftObject.TrainConcept.Libraries</RootNamespace>
+    <AssemblyName>TCLibraryManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\bin\release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionItem.cs" />
+    <Compile Include="AnimationActionItem.cs" />
+    <Compile Include="BookItem.cs" />
+    <Compile Include="ChapterItem.cs" />
+    <Compile Include="ClassroomItem.cs" />
+    <Compile Include="ClassroomList.cs" />
+    <Compile Include="ClassroomManagerBridge.cs" />
+    <Compile Include="ClassroomManagerEventArgs.cs" />
+    <Compile Include="ContentTreeViewList.cs" />
+    <Compile Include="ContentTreeViewRecord.cs" />
+    <Compile Include="DefaultClassroomManager.cs" />
+    <Compile Include="DefaultTestResultManager.cs" />
+    <Compile Include="DefaultNoticeManager.cs" />
+    <Compile Include="DefaultUserManager.cs" />
+    <Compile Include="DocumentActionItem.cs" />
+    <Compile Include="IClassroomAdapter.cs" />
+    <Compile Include="IClassroomManager.cs" />
+    <Compile Include="ILearnmapAdapter.cs" />
+    <Compile Include="ILearnmapManager.cs" />
+    <Compile Include="ILibraryAdapter.cs" />
+    <Compile Include="ILibraryManager.cs" />
+    <Compile Include="ImageActionItem.cs" />
+    <Compile Include="INoticeAdapter.cs" />
+    <Compile Include="INoticeManager.cs" />
+    <Compile Include="ITestResultAdapter.cs" />
+    <Compile Include="ITestResultManager.cs" />
+    <Compile Include="IUserAdapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IUserManager.cs" />
+    <Compile Include="KeywordActionItem.cs" />
+    <Compile Include="KeywordCollection.cs" />
+    <Compile Include="LearnmapItem.cs" />
+    <Compile Include="DefaultLearnmapManager.cs" />
+    <Compile Include="LearnmapManagerBridge.cs" />
+    <Compile Include="LearnmapManagerEventArgs.cs" />
+    <Compile Include="LibraryItem.cs" />
+    <Compile Include="LibraryManagerBridge.cs" />
+    <Compile Include="DefaultLibraryManager.cs" />
+    <Compile Include="LibraryManagerEventArgs.cs" />
+    <Compile Include="NoticeItem.cs" />
+    <Compile Include="NoticeItemCollection.cs" />
+    <Compile Include="NoticeList.cs" />
+    <Compile Include="NoticeManagerBridge.cs" />
+    <Compile Include="NoticeManagerEventArgs.cs" />
+    <Compile Include="PageItem.cs" />
+    <Compile Include="PointItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionCollection.cs" />
+    <Compile Include="QuestionItem.cs" />
+    <Compile Include="QuestionPool.cs" />
+    <Compile Include="SimulationActionItem.cs" />
+    <Compile Include="TestItem.cs" />
+    <Compile Include="TestQuestionItem.cs" />
+    <Compile Include="TestQuestionResultItem.cs" />
+    <Compile Include="TestResultItemCollection.cs" />
+    <Compile Include="TestResultItem.cs" />
+    <Compile Include="TestResultManagerBridge.cs" />
+    <Compile Include="TextActionItem.cs" />
+    <Compile Include="UserItem.cs" />
+    <Compile Include="UserList.cs" />
+    <Compile Include="UserManagerBridge.cs" />
+    <Compile Include="UserManagerEventArgs.cs" />
+    <Compile Include="UserRights.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="VideoActionItem.cs" />
+    <Compile Include="WebtrainPackageInfo.cs" />
+    <Compile Include="WorkingItem.cs" />
+    <Compile Include="WorkoutInfoItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

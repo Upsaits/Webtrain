@@ -1,0 +1,36 @@
+<%@ Master Language="C#" MasterPageFile="~/Root.master" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="TCWebUpdate.MainMaster" %>
+
+<%-- DXCOMMENT: Page Main.master is a master page that contains central area layout --%>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+    <dx:ASPxPanel ID="LeftPane" runat="server" FixedPosition="WindowLeft" ClientInstanceName="leftPane" CssClass="leftPane" Collapsible="True" Theme="Aqua" Font-Names="Arial" Font-Size="X-Small">
+        <SettingsAdaptivity CollapseAtWindowInnerWidth="1023" />
+        <Styles>
+            <Panel CssClass="panel"></Panel>
+        </Styles>
+        <PanelCollection>
+            <dx:PanelContent runat="server">
+                    <div class="leftPanel">
+                        <%-- DXCOMMENT: Configure the left panel's ASPxNavBar --%>
+                        <dx:ASPxNavBar ID="NavBar1" runat="server" AutoCollapse="True" EnableAnimation="True" Width="100%" AutoPostBack="True">
+                            <Border BorderWidth="0px" />
+                            <Paddings Padding="0px" />
+                            <Groups>
+                                <dx:NavBarGroup Text="Group 1" Name="navGroup1">
+                                    <Items>
+                                        <dx:NavBarItem Text="Item 1"></dx:NavBarItem>
+                                        <dx:NavBarItem Text="Item 2"></dx:NavBarItem>
+                                        <dx:NavBarItem Text="Item 3"></dx:NavBarItem>
+                                    </Items>
+                                </dx:NavBarGroup>
+                            </Groups>
+                        </dx:ASPxNavBar>
+                    </div>
+            </dx:PanelContent>
+        </PanelCollection>
+    </dx:ASPxPanel>
+
+    <div class="contentPane">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </div>
+            
+</asp:Content>

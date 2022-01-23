@@ -1,0 +1,218 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DongleTest.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DongleTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über DongleTest"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DongleTest Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DONGLETEST_DIALOG DIALOGEX 0, 0, 343, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DongleTest"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,97,160,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,172,160,50,14
+    LTEXT           "Dongle-ID:",IDC_STA_DONGLEID,16,28,36,8
+    EDITTEXT        IDC_EDT_DONGLEID,71,25,60,14
+    PUSHBUTTON      "Lizenzfile lesen",IDC_BTN_READFILE,34,116,60,14
+    PUSHBUTTON      "Lizenzfile schreiben",IDC_BTN_WRITEFILE,106,116,66,14
+    LTEXT           "Lizenzgruppe:",IDC_STA_LICGRP,16,46,50,8
+    EDITTEXT        IDC_EDT_LICGRP,71,42,29,14,ES_AUTOHSCROLL
+    LTEXT           "Lizenztype:",IDC_STA_LICTYPE,16,65,50,8
+    EDITTEXT        IDC_EDT_LICTYPE,71,59,29,14,ES_AUTOHSCROLL
+    LTEXT           "Lizenztypewert:",IDC_STA_LICTYPVAL,109,66,50,8
+    EDITTEXT        IDC_EDT_LICTYPVAL,159,60,29,14,ES_AUTOHSCROLL
+    LTEXT           "Update-Major:",IDC_STA_UPDMAJ,16,82,50,8
+    EDITTEXT        IDC_EDT_UPDMAJ,71,76,29,14,ES_AUTOHSCROLL
+    LTEXT           "Update-Minor:",IDC_STA_UPDMIN,16,99,50,8
+    EDITTEXT        IDC_EDT_UPDMIN,71,93,29,14,ES_AUTOHSCROLL
+    GROUPBOX        "Filzenzfile",IDC_STATIC,12,13,183,125
+    GROUPBOX        "Zeit-Limit",IDC_STATIC,202,14,127,69
+    LTEXT           "Dongle-ID:",IDC_STA_REGDONGLEID,209,28,36,8
+    EDITTEXT        IDC_EDT_REGDONGLEID,254,25,53,14
+    LTEXT           "Start am:",IDC_STA_REGTIMELIMIT,209,46,49,8
+    EDITTEXT        IDC_EDT_REGTIMELIMIT,254,42,51,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Löschen",IDC_BTN_CLEARTIMELIMIT,242,61,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "FileDescription", "MFC-Anwendung DongleTest"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DongleTest"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "OriginalFilename", "DongleTest.EXE"
+            VALUE "ProductName", "Anwendung DongleTest"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DONGLETEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "Inf&o über DongleTest..."
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DongleTest.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

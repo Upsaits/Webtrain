@@ -1,0 +1,74 @@
+<dotnetbar fullmenus="false" fullmenushover="true" tooltips="true" scintooltip="false" animation="0">
+  <items />
+  <bars>
+    <bar name="MainMenu" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Main Menu" dockline="0" dockoffset="0" grabhandle="0" menubar="true" stretch="true" style="2" wrapdock="false" wrapfloat="true" state="2" dockside="3" visible="true" custom="false" canhide="false" imagesize="0" itemsp="0" themes="false" layout="0" eqbutton="false">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bSystem" text="&amp;System" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" aname="bSystem" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <subitems>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bRegister" text="&amp;Anmelden" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images imageindex="0" />
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bRegisterAs" text="Anmelden &amp;als" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images imageindex="0" />
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bExit" text="&amp;Exit" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images imageindex="1" />
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bHelp" text="&amp;Help" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+              <images imageindex="9" />
+            </item>
+            <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bAbout" text="&amp;About" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="0" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false" />
+          </subitems>
+        </item>
+      </items>
+    </bar>
+    <bar name="ToolBar" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Toolbar" dockline="1" dockoffset="0" grabhandle="10" menubar="false" stretch="false" style="2" wrapdock="false" wrapfloat="true" state="2" dockside="3" visible="false" custom="false" canhide="false" imagesize="0" itemsp="0" themes="false" layout="0" eqbutton="false" padbottom="10" padtop="10">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bRegister" text="&amp;Anmelden" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="0" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bPrint" text="&amp;Print" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" shortcuts="131152" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="2" disabledimageindex="1" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bNoticeCenter" text="&amp;Notizen" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="1" stretch="false" global="true" themes="false" autocollapse="false" shortcuts="131150" PopupType="2" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="4" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bMessages" text="&amp;Messages" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="1" stretch="false" global="true" themes="false" autocollapse="false" PopupType="2" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="5" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bLibOverview" text="&amp;LibOverview" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="7" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bGlossary" text="&amp;Glossary" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="1" stretch="false" global="true" themes="false" autocollapse="false" PopupType="2" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="8" />
+        </item>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bStartSim" text="&amp;StartSim" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="0" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="0" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="10" />
+        </item>
+      </items>
+    </bar>
+    <bar name="CloseBar" candockleft="false" candockright="false" candocktop="true" candockbottom="false" text="CloseBar" dockline="1" dockoffset="0" grabhandle="10" menubar="false" stretch="false" style="2" wrapdock="false" wrapfloat="true" canundock="false" state="2" dockside="3" visible="false" custom="false" canhide="false" imagesize="0" itemsp="0" themes="false" layout="0" eqbutton="false" padbottom="10" padtop="10" tabalign="1">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.ButtonItem" name="bClose" text="&amp;Close" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="true" style="2" desc="" tooltip="" category="" cancustomize="true" showsubitems="true" itemalignment="0" stretch="false" global="true" themes="false" PopupType="1" PopupWidth="200" PersonalizedMenus="0" panim="1" ImagePosition="1" ButtonStyle="2" Checked="false" VerticalPadding="0" HorizontalPadding="0" MenuVisibility="0" RecentlyUsed="false">
+          <images imageindex="11" />
+        </item>
+      </items>
+    </bar>
+    <bar name="ControlCenter" candockleft="true" candockright="true" candocktop="false" candockbottom="false" text="ControlCenter" dockline="0" dockoffset="0" grabhandle="8" menubar="false" stretch="true" style="2" wrapdock="false" wrapfloat="false" state="2" dockside="1" visible="false" custom="false" canhide="false" imagesize="0" itemsp="0" themes="false" layout="2" eqbutton="false" captionbc="-1296" captionfc="-16777216" dockwidth="168">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.DockContainerItem" name="ControlCenter" text="ControlCenter" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="false" showsubitems="true" itemalignment="0" stretch="true" global="true" themes="false" />
+      </items>
+    </bar>
+    <bar name="Notizen" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Notizen" dockline="0" dockoffset="0" grabhandle="8" menubar="false" stretch="true" style="2" wrapdock="false" wrapfloat="false" state="2" dockside="1" visible="false" custom="false" canhide="true" imagesize="0" itemsp="0" themes="false" layout="2" eqbutton="false" captionbc="-1296" captionfc="-16777216" dockwidth="168">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.DockContainerItem" name="Notiz" text="Notizen" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="false" showsubitems="true" itemalignment="0" stretch="true" global="true" themes="false" />
+      </items>
+    </bar>
+    <bar name="Navigator" candockleft="true" candockright="true" candocktop="true" candockbottom="true" text="Navigator" dockline="0" dockoffset="0" grabhandle="8" menubar="false" stretch="true" style="2" wrapdock="false" wrapfloat="false" state="2" dockside="2" visible="false" custom="false" canhide="true" imagesize="0" itemsp="0" themes="false" layout="2" eqbutton="false" captionbc="-1296" captionfc="-16777216" dockwidth="300">
+      <items>
+        <item assembly="DevComponents.DotNetBar" class="DevComponents.DotNetBar.DockContainerItem" name="Navigator" text="Navigator" iscontainer="false" visible="true" itemdata="" enabled="true" begingroup="false" style="2" desc="" tooltip="" category="" cancustomize="false" showsubitems="true" itemalignment="0" stretch="true" global="true" themes="false" minw="100" minh="32" csize="100" />
+      </items>
+    </bar>
+  </bars>
+  <popups />
+</dotnetbar>

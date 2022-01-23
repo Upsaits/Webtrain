@@ -1,0 +1,9 @@
+; TCDongle.def : Deklariert die Parameter für das Modul.
+
+LIBRARY      "TCDONGLE.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FF8818C-0E83-4F79-8500-F12E2B54B8D1}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SOComponents</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;DEBUG;SKIN_WEBTRAIN</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE;SKIN_WEBTRAIN</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SKIN_WEBTRAIN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\release\</OutputPath>
+    <DefineConstants>TRACE;SKIN_WEBTRAIN</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v18.1.Export, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.1.Design, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.1.Design, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v18.1.Design, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1.Design, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v18.1, Version=18.1.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="PowerPointViewer">
+      <Guid>{0F467853-55A4-4E4F-BB26-C4613DBC1DEF}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <Reference Include="TXTextControl, Version=19.0.1200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
+    <Reference Include="TXTextControl.Windows.Forms, Version=19.0.400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="VisioForge.Controls, Version=11.1.21.0, Culture=neutral, PublicKeyToken=5873e863f1bcda5d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Controls.UI, Version=11.1.21.0, Culture=neutral, PublicKeyToken=eafa6bd21aa991fd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Controls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.DirectX, Version=2.6.3.0, Culture=neutral, PublicKeyToken=2f064561f42d5b6a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Kinect, Version=11.1.21.0, Culture=neutral, PublicKeyToken=6b3de6961a054599, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Kinect.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Kinect2, Version=11.1.21.0, Culture=neutral, PublicKeyToken=f82f0d08b3f31343, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Kinect2.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.MediaFramework, Version=11.1.21.0, Culture=neutral, PublicKeyToken=14e66dd726c53f11, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.MediaFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Shared, Version=11.1.21.0, Culture=neutral, PublicKeyToken=4cb7f6778cad43a2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Tools, Version=11.1.21.0, Culture=neutral, PublicKeyToken=33c6ded9724deec2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.Types, Version=11.1.21.0, Culture=neutral, PublicKeyToken=722de1c1c0a7f49e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="VisioForge.VideoFingerPrinting, Version=11.1.21.0, Culture=neutral, PublicKeyToken=e8ec2a375cde917e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\VisioForge\VisioForge SDKs .Net\Redist\DotNet\VisioForge.VideoFingerPrinting.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FrmTransparentFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTransparentFrame.Designer.cs">
+      <DependentUpon>FrmTransparentFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmPPTXPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmPPTXPlayer.Designer.cs">
+      <DependentUpon>XFrmPPTXPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TransparentFrameControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TransparentFrameControl.Designer.cs">
+      <DependentUpon>TransparentFrameControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransparentFrameEvent.cs" />
+    <Compile Include="UtilityLibrary\AbortableBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UtilityLibrary\CircProgBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UtilityLibrary\DHTMLParser.cs" />
+    <Compile Include="UtilityLibrary\FileAndDirectoryHelpers.cs" />
+    <Compile Include="Forms\FrmSelectServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSelectServer.designer.cs">
+      <DependentUpon>FrmSelectServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmShowFilename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmShowFilename.Designer.cs">
+      <DependentUpon>FrmShowFilename.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SOFlashPlayer.designer.cs">
+      <DependentUpon>SOFlashPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SOGlossar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SOVideoPlayer_VisioForge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SOVideoPlayer_VisioForge.designer.cs">
+      <DependentUpon>SOVideoPlayer_VisioForge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WebBrowserEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmLongProcessToastNotificationEmpty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmLongProcessToastNotificationEmpty.designer.cs">
+      <DependentUpon>XFrmLongProcessToastNotificationEmpty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\XFrmLongProcessToastNotificationSmall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmLongProcessToastNotificationSmall.designer.cs">
+      <DependentUpon>XFrmLongProcessToastNotificationSmall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmDirectoryPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UtilityLibrary\LanguageHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UtilityLibrary\LongProcessHandler.cs" />
+    <Compile Include="UtilityLibrary\ProfileHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityLibrary\ResourceHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\SOChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SOCheckBmpBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SOFlashPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SOMemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\SONotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SONotice.designer.cs">
+      <DependentUpon>SONotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SONoticeCtrl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SORadioBmpBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\SOTaskbarNotifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Win32\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Win32\Functions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Win32\RegistryUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Win32\Structs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\Wizard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WizardPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WizardPagesCollection.cs" />
+    <Compile Include="Forms\XFrmLongProcessToastNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\XFrmLongProcessToastNotification.designer.cs">
+      <DependentUpon>XFrmLongProcessToastNotification.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\FrmSelectServer.resx">
+      <DependentUpon>FrmSelectServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmShowFilename.resx">
+      <DependentUpon>FrmShowFilename.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SOGlossar.resx">
+      <DependentUpon>SOGlossar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTransparentFrame.resx">
+      <DependentUpon>FrmTransparentFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SOVideoPlayer_VisioForge.resx">
+      <DependentUpon>SOVideoPlayer_VisioForge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmLongProcessToastNotificationEmpty.resx">
+      <DependentUpon>XFrmLongProcessToastNotificationEmpty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmLongProcessToastNotificationSmall.resx">
+      <DependentUpon>XFrmLongProcessToastNotificationSmall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmDirectoryPicker.resx">
+      <DependentUpon>FrmDirectoryPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmPPTXPlayer.resx">
+      <DependentUpon>XFrmPPTXPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\TrainConcept\resources_emco.resx" />
+    <EmbeddedResource Include="res\Webtrain\resources_softobject.resx" />
+    <EmbeddedResource Include="Controls\SOChart.resx">
+      <DependentUpon>SOChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SOCheckBmpBtn.resx">
+      <DependentUpon>SOCheckBmpBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SOFlashPlayer.resx">
+      <DependentUpon>SOFlashPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SOMemo.resx">
+      <DependentUpon>SOMemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SONotice.resx">
+      <DependentUpon>SONotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SONoticeCtrl.resx">
+      <DependentUpon>SONoticeCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SORadioBmpBtn.resx">
+      <DependentUpon>SORadioBmpBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SOTaskbarNotifier.resx">
+      <DependentUpon>SOTaskbarNotifier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Wizard.resx">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\XFrmLongProcessToastNotification.resx">
+      <DependentUpon>XFrmLongProcessToastNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\so_dhtml.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Windows.WebBrowser\Windows.WebBrowser.csproj">
+      <Project>{87632ced-0f69-4669-b388-0c07f5c1b104}</Project>
+      <Name>Windows.WebBrowser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

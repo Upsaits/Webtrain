@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoftObject.TrainConcept.About" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAIAACAIAAAAAAAAAA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.AppHandler" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2wkA4ODQHEBLGjDAIgQJoCA9JECUmCBAzKEoB2AMRVU=</HashCode>
+      <FileName>AppHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ApplicationData" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQBBBAAAAAAQBAAQCAAAEAAGAAABAAABQAAEAgAAAAA=</HashCode>
+      <FileName>ApplicationData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ContentControlBar" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACQgAAIiAAgDAAQACABMACAAEAAAJhABAKARQAMAE=</HashCode>
+      <FileName>ContentControlBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ContentEditTabPage" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACAAAgCAQABAUAACABEACCIlAAAAAAACUIAAABQI=</HashCode>
+      <FileName>ContentEditTabPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.DefContentManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAABACBACABgAAAAAQEABBJQgAAFAAAAAMADoAII=</HashCode>
+      <FileName>ContentManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ContentTreeViewList" Collapsed="true">
+    <Position X="30.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQQAAAQEAEAAgAAAAAACCAAAAAAACAIBAAA=</HashCode>
+      <FileName>ContentTreeViewList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ControlCenter" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABSAYAAIAAgADAQBCAAAACAEAAAIAFIAAEAAAAUAg=</HashCode>
+      <FileName>ControlCenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.DHTMLParser" Collapsed="true">
+    <Position X="28.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAABBEIEAgAAAAABAAAAQAEACAIAAA=</HashCode>
+      <FileName>DHTMLParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Form1" Collapsed="true">
+    <Position X="30.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAEACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmBrowser" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAEAACASIACACACAAAQABAAAAAAAAAAA=</HashCode>
+      <FileName>FrmBrowser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmCertification" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQISAAAYACAIIAQIABCIACFCAACEKAAMACgqQAEBAAA=</HashCode>
+      <FileName>FrmCertification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmChangePwd" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAgACAAABEAAACAAAACAAAABABDAAAAAgEAAAA=</HashCode>
+      <FileName>FrmChangePwd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmClassroom" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAICADAABxAQAACAAKASkCAAACCBQAIADAAAgAI=</HashCode>
+      <FileName>FrmClassroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmContent" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAEEINxCAAURQgBAGwAAgGECFRgCBBgCUAYQWChCI=</HashCode>
+      <FileName>FrmContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ContentViews" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAEAAACBAAA=</HashCode>
+      <FileName>FrmContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmContentExaming" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACEAhAABAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>FrmContentExaming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmContentLearning" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYmAZAUAUSAIgAIAEgiJAkRCKwAKOkJJAhAAJwQkEwQ=</HashCode>
+      <FileName>FrmContentLearning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmContentOverview" Collapsed="true">
+    <Position X="27" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAIAQAACAEAAAACAAAAAAAAgAAAAACAAAA=</HashCode>
+      <FileName>FrmContentOverview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmContentTesting" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAhACAAAAAAAAAAgAAAAAAAAAAAAI=</HashCode>
+      <FileName>FrmContentTesting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmCSLSim" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MSAAAAEACSAAghEAAACAAEBCIEA4AAAAkHAIIQEABAA=</HashCode>
+      <FileName>FrmCSLSim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmCSLSimEdit" Collapsed="true">
+    <Position X="30.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAQCAAAAAAAACAAAACIAAYAAAAAGAAAQAAACA=</HashCode>
+      <FileName>FrmCSLSimEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmCTSServerConsole" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmCTSServerConsole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmCTSStudents" Collapsed="true">
+    <Position X="16.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACACAACAAAABAABABAAAAAAAAg=</HashCode>
+      <FileName>FrmCTSStudents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmDongleState" Collapsed="true">
+    <Position X="18.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICABCAEEAEAAACAIAACAAACBAEBQAAQAAAAQAA=</HashCode>
+      <FileName>FrmDongleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmEditCertification" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIIAACAAAAECMACABmEDgAikDAAFVUAACAMAARA=</HashCode>
+      <FileName>FrmEditCertification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmEditContent" Collapsed="true">
+    <Position X="21.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAYgIAEAAjCAARAwcCCMAMADBwEkCBIIAECEAQ8CDAI=</HashCode>
+      <FileName>FrmEditContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmEditKeywordAction" Collapsed="true">
+    <Position X="23.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAIAAACAAEAEhgAKEAAACAAEABAACAAAAAQgAAEA=</HashCode>
+      <FileName>FrmEditKeywordAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmEditTextAction" Collapsed="true">
+    <Position X="25.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAACAAAAEhAACQAAACAAQABAAAAAAAAQAAAAA=</HashCode>
+      <FileName>FrmEditTextAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmEditUser" Collapsed="true">
+    <Position X="27" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAIAQACCgABEBAACAAEACAEAABAABASAAAAEAAAA=</HashCode>
+      <FileName>FrmEditUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmInputIPAdress" Collapsed="true">
+    <Position X="28.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAABEAAACAAAACBQAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>FrmInputIPAdress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmChooseLanguage" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIEBCGAAgAEEAAAAAEACBAgABAABAAAgAABAAAE=</HashCode>
+      <FileName>FrmLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmLMEditContent" Collapsed="true">
+    <Position X="30.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VAArAoEEARAQAXAQRCIuEIACgIEBAAABCAIBwSQAgwA=</HashCode>
+      <FileName>FrmLMEditContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmMain" Collapsed="true">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQAgCBBCWCDgAQVBBCuQLwSrCAogARkFNAyqAAEEwKE=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmMapDistribut" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAIQBBCQAAREAAAiAXAECYAQQBBABBAQAAAAABFE=</HashCode>
+      <FileName>FrmMapDistribut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmNewLearnmap" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAQCAAAFEAAACAAEACAAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>FrmNewLearnmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmRegistration" Collapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAApAQACCAAQEMABCBAQQCAAAADAADAQAAAABAAAI=</HashCode>
+      <FileName>frmRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmTestReport" Collapsed="true">
+    <Position X="21.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BUJCAAAQACBQCAAgABCAAARCAEAEcAAcAAg4QAEAAAA=</HashCode>
+      <FileName>FrmTestReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmTransferState" Collapsed="true">
+    <Position X="23.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAACBAAAACAAACCAAAAAAgAAAAQAICAAAA=</HashCode>
+      <FileName>FrmTransferState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmUserEditor" Collapsed="true">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAACgAAAAAAACAGACCCwIIDAgBAAIACAEAAQQ=</HashCode>
+      <FileName>FrmUserEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.FrmWorkout" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEEQKACUBAAAQ1ACBAFAiCAABEAABmAIAAAQAJAA=</HashCode>
+      <FileName>FrmWorkout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.ContentManager" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAABCCBACABgAAAAAQEABBJAgAAFAAAAAMADoAII=</HashCode>
+      <FileName>IContentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTSClientTransferData" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACIAACAACAAAAAAEAAAAAQAAAAggBAgIBAEAAhEQCg=</HashCode>
+      <FileName>ICTSClientControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTSClientEventArgs" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAAAQAAEAAAIBAAAAhoAAAAAAQgAIAAAACA=</HashCode>
+      <FileName>ICTSClientControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTSClientManager" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAACICAAQAAAAAGAQEAAAAAAAEBAAgAAAACQAAA=</HashCode>
+      <FileName>ICTSClientControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTSServerEventArgs" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAIBSAAAgAAAQACAQAAAAAAACA=</HashCode>
+      <FileName>ICTSServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTSServerManager" Collapsed="true">
+    <Position X="30.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAAAAAQAAAAAYEAAAEAAAEgAAAAAAACQAAA=</HashCode>
+      <FileName>ICTSServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.IDEManager" Collapsed="true">
+    <Position X="27" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAAACQAAAAAAAAAAAAgADAAAAkMEAAQAgqAEAAAA=</HashCode>
+      <FileName>IIDEManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.LearnmapManager" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBCCCJACQAAAIAAMIIAAAAAAQEBIAEAAAAAgAAKAAAI=</HashCode>
+      <FileName>ILearnmapManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.LibraryManager" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADBCJQCGAwRQJUAAICAAAgAQQCJQAMAhCAAAAAChBAg=</HashCode>
+      <FileName>ILibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.NoticeManager" Collapsed="true">
+    <Position X="27" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIACAAAgIIAAAAgAAAAAAAAKAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INoticeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestResultManager" Collapsed="true">
+    <Position X="14.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAIACACQCIABAAAAAAEAAAAEIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITestResultManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.UserManager" Collapsed="true">
+    <Position X="25.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEQIECAQAAIAAEAQAAAAAAAACAABAAAAAAAADAAAA=</HashCode>
+      <FileName>IUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.LibraryOverview" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAAAACAAIACAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LibraryOverview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.QuestionEditPage" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAADAAAICAACBBQAQCAAEwCAAgAABgEEiCAAAIIAQA=</HashCode>
+      <FileName>QuestionEditPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TreeListGetCorrectAnswerOperation" Collapsed="true">
+    <Position X="18.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>QuestionEditPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TreeListVerifyAnswerOperation" Collapsed="true">
+    <Position X="20" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>QuestionEditPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.WorkoutInfoItem" Collapsed="true">
+    <Position X="30.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBEAAAAAAAAIQAACCEACAgAQAgAAEQAAAAEAAAgA=</HashCode>
+      <FileName>Workout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.WorkoutInfoItemCollection" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAiABAAEAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Workout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.XContentTree" Collapsed="true">
+    <Position X="16.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAABAGQgAAAEACGAAEwTBAACAAABAQQABAABABA=</HashCode>
+      <FileName>XContentTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.XStudentTree" Collapsed="true">
+    <Position X="18.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAACAIAAAAAQCAAIACQAACBAAABBAAAAAAAAA=</HashCode>
+      <FileName>XStudentTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.StudentTreeRecord" Collapsed="true">
+    <Position X="21.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAAAAAAAEAAAAAAKAAgAAAAQAAwAAAAAAAAA=</HashCode>
+      <FileName>XStudentTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.XTestTreeView" Collapsed="true">
+    <Position X="20" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAQAAACAAAAAAAQCAAAACQMACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XTestTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestTreeRecord" Collapsed="true">
+    <Position X="16.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAiAAAAAAAAAAAAAWAJAAgAAQAAgQAAAAAAAA=</HashCode>
+      <FileName>XTestTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crownwood.Magic.Controls.ContentTab" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ContentTab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTS.CTSIPWClientManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAQICYKAAQAAABACAQDAIAAMAIEKAQkUAIACYAQA=</HashCode>
+      <FileName>CTSIPWClientManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTS.CTSServerException" Collapsed="true">
+    <Position X="28.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CTSIPWServerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTS.CTSIPWServerManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IA0AAAIiQIEAICQBAgAAQTAACmBAIEKAAEAAAACYAgA=</HashCode>
+      <FileName>CTSIPWServerManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.CTS.DataFilter" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IncomingDataFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Notices.NoticeList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DefNoticeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Notices.NoticeItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAABA=</HashCode>
+      <FileName>DefNoticeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Notices.NoticeItemCollection" Collapsed="true">
+    <Position X="23.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAABAAEAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DefNoticeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Notices.DefNoticeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgIIAAAAgAAAAAAAAKBAAAAAAAAAAAACA=</HashCode>
+      <FileName>DefNoticeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestResults.DefTestResultManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAACQAIABAAAAAAAAAAAEIIAAAAEAAAAABACA=</HashCode>
+      <FileName>DefTestResultManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestResults.TestQuestionResultItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAABAAAEAAACAAAAAAAAAAAAAQAAAEAAABA=</HashCode>
+      <FileName>TestResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestResults.TestResultItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAAAAAAAAEAAAgACAAgAAAAAAQAAAAAAEAARA=</HashCode>
+      <FileName>TestResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.TestResults.TestResultItemCollection" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Users.UserList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DefUserManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Users.UserRights" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DefUserManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Users.UserItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAgEAABA=</HashCode>
+      <FileName>DefUserManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Users.DefUserManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEQIEAAQAAIAAEAQAAAAAAAgCAABAAAAAAAADAACg=</HashCode>
+      <FileName>DefUserManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.IDE.DefIDEManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAAAAQAAAAAAAAAAAAgADAAAAkMGAAQAgqAEAAAA=</HashCode>
+      <FileName>IDEManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Learnmaps.Learnmap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAQAEAAAABAAAEAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LearnmapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Learnmaps.WorkingItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>LearnmapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Learnmaps.TestItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAAAAAAAAAAIAAACAAAAAAAAAAAAAAAEAAAAABA=</HashCode>
+      <FileName>LearnmapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Learnmaps.TestQuestionItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABA=</HashCode>
+      <FileName>LearnmapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Learnmaps.DefLearnmapManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBCCCJAAQLAAIAAMIIAAAAAIQEBIAEAAAAAgAAKIAAI=</HashCode>
+      <FileName>LearnmapManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.LibraryItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAEAAAABAAAAAAAAgAAAAAAAAAACAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.BookItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.ChapterItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.PointItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.PageItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAABAAAABAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.ActionItem" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAhA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.TextActionItem" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.ImageActionItem" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAEAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.KeywordActionItem" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAQAAAAAAACEAIAAAAAgAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.VideoActionItem" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.AnimationActionItem" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.SimulationActionItem" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgECAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.QuestionItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAFAAAAAAAAAAQBQAgAQDAAAAAAABA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.QuestionCollection" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAEAAACAAAAAACAAQIAAAA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.KeywordCollection" Collapsed="true">
+    <Position X="28.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAEABAIEAAAKAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.DefLibraryManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AjBCJQCEAwRQJWQAMCAAggAYQCJQAMAlCAAAAACpBAg=</HashCode>
+      <FileName>LibraryManagerNew.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoftObject.TrainConcept.Libraries.QuestionPool" Collapsed="true">
+    <Position X="20" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAEAAEAAABAAAggAAAAAAAACAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>QuestionPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SoftObject.TrainConcept.IContentManager" Collapsed="true">
+    <Position X="14.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAABACBACABgAAAAAQEABBJAgAAFAAAAAMADoAII=</HashCode>
+      <FileName>IContentManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.ICTSClientManager" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAICAAQAAAAACAQAAAAAAAAEAAAkAAAACQAAA=</HashCode>
+      <FileName>ICTSClientControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.ICTSServerManager" Collapsed="true">
+    <Position X="18.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAQAAAAEAAAEAAAEAAAACQAAA=</HashCode>
+      <FileName>ICTSServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.IIDEManager" Collapsed="true">
+    <Position X="20" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAAAAQAAAAAAAAAAAAgADAAAAkMEAAQAgqAEAAAA=</HashCode>
+      <FileName>IIDEManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.ILearnmapManager" Collapsed="true">
+    <Position X="21.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBCCCJAAQAAAIAAMIIAAAAAAQEBIAEAAAAAgAAKAAAI=</HashCode>
+      <FileName>ILearnmapManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.ILibraryManager" Collapsed="true">
+    <Position X="23.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADBCJQCEAwRQJUAAICAAAgAQQCJQAMAhCAAAAAChBAg=</HashCode>
+      <FileName>ILibraryManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.INoticeManager" Collapsed="true">
+    <Position X="25.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgIIAAAAgAAAAAAAAKAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>INoticeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.ITestResultManager" Collapsed="true">
+    <Position X="27" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAACQAIABAAAAAAAAAAAEIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ITestResultManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SoftObject.TrainConcept.IUserManager" Collapsed="true">
+    <Position X="28.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEQIEAAQAAIAAEAQAAAAAAAACAABAAAAAAAADAAAA=</HashCode>
+      <FileName>IUserControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="SoftObject.TrainConcept.ShowPageCallback" Collapsed="true">
+    <Position X="25.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContentEditTabPage.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.fnFindKeyword" Collapsed="true">
+    <Position X="14.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DHTMLParser.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.ReceiveClassMessageDelegate" Collapsed="true">
+    <Position X="23.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.TransferStartDelegate" Collapsed="true">
+    <Position X="30.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.TransferProgressDelegate" Collapsed="true">
+    <Position X="28.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.TransferEndDelegate" Collapsed="true">
+    <Position X="27" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.fnTransferAbort" Collapsed="true">
+    <Position X="16.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrmTransferState.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.OnCTSClientHandler" Collapsed="true">
+    <Position X="18.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICTSClientControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.OnCTSServerHandler" Collapsed="true">
+    <Position X="20" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICTSServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SoftObject.TrainConcept.OnTestResultsChangedHandler" Collapsed="true">
+    <Position X="21.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITestResultManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

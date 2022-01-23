@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set2_en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set2_en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set2_en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set2_en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_02_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_02_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_02_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_02_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_02_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_02_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_03_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_03_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set4_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_en4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_en4_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="set_small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\set_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_et" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_et.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_et_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_et_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_set2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_set2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_set2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_set2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_s_ent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_s_ent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent2_s_ent3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent2_s_ent3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent4_s_ent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent4_s_ent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent4_s_ent3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent4_s_ent3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_02_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_02_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en4_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en4_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en4_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en4_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en5_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en5_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_en5_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_en5_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\text.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\text_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en11_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en11_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en11_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en11_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en2_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en2_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en3_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en3_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en3_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en4_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en4_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en4_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en4_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en5_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en5_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en5_t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en5_t.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en5_t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en5_t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en6_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en6_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en6_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en6_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en6_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en6_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en7_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en7_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\T_en9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en9_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\T_en9_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent4_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent4_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent4_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent4_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent5_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent5_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent6_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent6_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_en_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_en_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_e_ent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_e_ent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_e_ent_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_e_ent_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set3_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set3_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set3_02_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set3_02_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set4_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set4_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_s_en2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_s_en2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_s_en2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_s_en2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_s_ent2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_s_ent2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_set_s_ent2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_set_s_ent2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en2_1_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en2_1_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en_set2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en_set2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en2_s_en_set2_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en2_s_en_set2_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_ent2_s_ent3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_ent2_s_ent3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_ent2_s_ent3_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_ent2_s_ent3_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en_s_en3_s_en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en_s_en3_s_en.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_s_en_s_en3_s_en_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\t_s_en_s_en3_s_en_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_t_01_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>BITMAPS\Editor\s_t_01_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCWebUpdate", "TCWebUpdate\TCWebUpdate.csproj", "{D5209C02-6937-406F-B5D4-0E5C139CEABD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3} = {B2561652-9DA6-4935-8EF9-5075DE2DD7D3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCLibraryManager", "..\TCLibraryManager\TCLibraryManager.csproj", "{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5209C02-6937-406F-B5D4-0E5C139CEABD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Debug|x86.ActiveCfg = Debug|x86
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Debug|x86.Build.0 = Debug|x86
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Release|x86.ActiveCfg = Release|x86
+		{B2561652-9DA6-4935-8EF9-5075DE2DD7D3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A373CBDC-D2EB-435B-89EF-00D12EDC4061}
+	EndGlobalSection
+EndGlobal

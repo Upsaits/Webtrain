@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://webtrain.softobject.at/webservice" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://webtrain.softobject.at/webservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webtrain.softobject.at/webservice">
+      <s:element name="UpdateAvailable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateAvailableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateAvailableResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerIPAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetServerIPAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetServerIPAddressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLicenseIdByServerIPAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strIPAdress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLicenseIdByServerIPAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLicenseIdByServerIPAddressResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetServerIPAddress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strIPAddress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetServerIPAddressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetServerIPAddressResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="licenseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="buffer" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="iPackageId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="iMaxPackages" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="filename" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutFileResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCustomerList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCustomerListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetUserList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUserPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strUsername" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetUserPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetUserPasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPackagesToLaunch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="strUsername" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPackagesToLaunchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPackagesToLaunchResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdminInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAdminInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAdminInformationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpotItems">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSpotItemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpotItemsResult" type="tns:ArrayOfWTSpotItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWTSpotItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WTSpotItem" nillable="true" type="tns:WTSpotItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WTSpotItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WTSpotName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LocationName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IPAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SSIDName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SSIDPassword" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetLearnmapsToTransfer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLicenseId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLearnmapsToTransferResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLearnmapsToTransferResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UpdateAvailableSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateAvailable" />
+  </wsdl:message>
+  <wsdl:message name="UpdateAvailableSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetServerIPAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:GetServerIPAddress" />
+  </wsdl:message>
+  <wsdl:message name="GetServerIPAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:GetServerIPAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLicenseIdByServerIPAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLicenseIdByServerIPAddress" />
+  </wsdl:message>
+  <wsdl:message name="GetLicenseIdByServerIPAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLicenseIdByServerIPAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetServerIPAddressSoapIn">
+    <wsdl:part name="parameters" element="tns:SetServerIPAddress" />
+  </wsdl:message>
+  <wsdl:message name="SetServerIPAddressSoapOut">
+    <wsdl:part name="parameters" element="tns:SetServerIPAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutFileSoapIn">
+    <wsdl:part name="parameters" element="tns:PutFile" />
+  </wsdl:message>
+  <wsdl:message name="PutFileSoapOut">
+    <wsdl:part name="parameters" element="tns:PutFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerList" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserList" />
+  </wsdl:message>
+  <wsdl:message name="GetUserListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:SetUserPassword" />
+  </wsdl:message>
+  <wsdl:message name="SetUserPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:SetUserPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPackagesToLaunchSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPackagesToLaunch" />
+  </wsdl:message>
+  <wsdl:message name="GetPackagesToLaunchSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPackagesToLaunchResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAdminInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAdminInformation" />
+  </wsdl:message>
+  <wsdl:message name="GetAdminInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAdminInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSpotItemsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpotItems" />
+  </wsdl:message>
+  <wsdl:message name="GetSpotItemsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpotItemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLearnmapsToTransferSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLearnmapsToTransfer" />
+  </wsdl:message>
+  <wsdl:message name="GetLearnmapsToTransferSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLearnmapsToTransferResponse" />
+  </wsdl:message>
+  <wsdl:portType name="QueryUpdateSoap">
+    <wsdl:operation name="UpdateAvailable">
+      <wsdl:input message="tns:UpdateAvailableSoapIn" />
+      <wsdl:output message="tns:UpdateAvailableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerIPAddress">
+      <wsdl:input message="tns:GetServerIPAddressSoapIn" />
+      <wsdl:output message="tns:GetServerIPAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLicenseIdByServerIPAddress">
+      <wsdl:input message="tns:GetLicenseIdByServerIPAddressSoapIn" />
+      <wsdl:output message="tns:GetLicenseIdByServerIPAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetServerIPAddress">
+      <wsdl:input message="tns:SetServerIPAddressSoapIn" />
+      <wsdl:output message="tns:SetServerIPAddressSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <wsdl:input message="tns:GetFileSoapIn" />
+      <wsdl:output message="tns:GetFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutFile">
+      <wsdl:input message="tns:PutFileSoapIn" />
+      <wsdl:output message="tns:PutFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <wsdl:input message="tns:GetCustomerListSoapIn" />
+      <wsdl:output message="tns:GetCustomerListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserList">
+      <wsdl:input message="tns:GetUserListSoapIn" />
+      <wsdl:output message="tns:GetUserListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUserPassword">
+      <wsdl:input message="tns:SetUserPasswordSoapIn" />
+      <wsdl:output message="tns:SetUserPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPackagesToLaunch">
+      <wsdl:input message="tns:GetPackagesToLaunchSoapIn" />
+      <wsdl:output message="tns:GetPackagesToLaunchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminInformation">
+      <wsdl:input message="tns:GetAdminInformationSoapIn" />
+      <wsdl:output message="tns:GetAdminInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpotItems">
+      <wsdl:input message="tns:GetSpotItemsSoapIn" />
+      <wsdl:output message="tns:GetSpotItemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLearnmapsToTransfer">
+      <wsdl:input message="tns:GetLearnmapsToTransferSoapIn" />
+      <wsdl:output message="tns:GetLearnmapsToTransferSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="QueryUpdateSoap" type="tns:QueryUpdateSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateAvailable">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/UpdateAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerIPAddress">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLicenseIdByServerIPAddress">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetLicenseIdByServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetServerIPAddress">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/SetServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFile">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/PutFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetCustomerList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserList">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetUserList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserPassword">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/SetUserPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackagesToLaunch">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetPackagesToLaunch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminInformation">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetAdminInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpotItems">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetSpotItems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLearnmapsToTransfer">
+      <soap:operation soapAction="http://webtrain.softobject.at/webservice/GetLearnmapsToTransfer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="QueryUpdateSoap12" type="tns:QueryUpdateSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateAvailable">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/UpdateAvailable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerIPAddress">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLicenseIdByServerIPAddress">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetLicenseIdByServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetServerIPAddress">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/SetServerIPAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutFile">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/PutFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerList">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetCustomerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserList">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetUserList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserPassword">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/SetUserPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPackagesToLaunch">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetPackagesToLaunch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAdminInformation">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetAdminInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpotItems">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetSpotItems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLearnmapsToTransfer">
+      <soap12:operation soapAction="http://webtrain.softobject.at/webservice/GetLearnmapsToTransfer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QueryUpdate">
+    <wsdl:port name="QueryUpdateSoap" binding="tns:QueryUpdateSoap">
+      <soap:address location="http://webtrain.softobject.at/QueryUpdate.asmx" />
+    </wsdl:port>
+    <wsdl:port name="QueryUpdateSoap12" binding="tns:QueryUpdateSoap12">
+      <soap12:address location="http://webtrain.softobject.at/QueryUpdate.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

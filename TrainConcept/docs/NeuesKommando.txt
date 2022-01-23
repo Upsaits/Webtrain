@@ -1,0 +1,114 @@
+Neues Kommando erstellen
+
+1) Interfaces erweitern: 
+	ICTSClientManager
+		void AskWorkProgress(string userName, string mapTitle, string workTitle);
+        bool AskWorkProgress(string userName, string mapTitle, string workTitle, ref AutoResetEvent jobDone);
+	ICTSServerAdapter
+		void  AskWorkProgress(string userName, string mapTitle, string workTitle);
+
+2) Implementierungen anpassen
+	ACHTUNG: Format des Übertragungsbefehls beachten "#[Befehl]{{Param1|Param2|Param3}}" mit ParamX="{X}"  und Befehl="ASKWORKPROGRESS"
+	a) CTSSocketClientManager:
+        public void AskWorkProgress(string userName, string mapTitle, string workTitle)
+        {
+            if (!CheckConnection())
+                return;
+            SendCommand(String.Format("#ASKWORKPROGRESS{{{0}|{1}|{2}}}", userName, mapTitle, workTitle));
+        }
+
+        public bool AskWorkProgress(string userName, string mapTitle, string workTitle, ref AutoResetEvent jobDone)
+        {
+            if (!CheckConnection())
+                return false;
+
+            m_jobDone = jobDone;
+            m_jobDone.Reset();
+
+            SendCommand(String.Format("#ASKWORKPROGRESS{{{0}|{1}|{2}}}", userName, mapTitle, workTitle));
+            if (!m_jobDone.WaitOne(m_adapter.GetTimeoutStandard(), false))
+                return false;
+            return true;
+        }
+	b) alle anderen ICTSClientManager Implementoren nur leer lassen
+	c) CTSServerAdapterImpl
+
+		public void AskWorkProgress(string userName, string mapTitle, string workTitle)
+        {
+        }
+
+3) CTSSocketServerManager anpassen
+	a) CheckReceivedCommand(): neues Token abfangen
+		...
+		&& commandString.IndexOf("#ASKWORKPROGRESS") != 0     // einfügen
+
+	b) DoCommand(): neues Token Interpretieren
+		ACHTUNG: Parametertypen und Anzahl beachten!
+		....
+	    else if (aCommands[0] == "#ASKWORKPROGRESS")
+        DoAskWorkProgress(connId, aTokens[0], aTokens[1], aTokens[2]);
+		....
+
+		private void DoAskWorkProgress(int connId, string userName, string mapTitle, string workTitle)
+        {
+            // Aktionen des Kommandos ausführen
+		private void DoAskWorkProgress(int connId, string userName, string mapTitle, string workTitle)
+        {
+            m_adapter.AskWorkProgress(userName, mapTitle,workTitle)));
+        }
+
+4) Ausführen des Kommandos (in z.B.: MainForm):
+		// einfach aufrufen
+        AppHandler.CtsClientManager.AskWorkProgress(AppHandler.MainForm.ActualUserName, mapTitle, askWorkProgressWork, ref jobDone);
+
+5)  Sollte das Kommando auch antworten dann gehts hier weiter
+		a) ICTSServerAdapter und CTSServerAdapterImpl anpassen
+		
+		return Wert hinzufügen (z.B: Integer) 
+			
+		int AskWorkProgress(string userName, string mapTitle, string workTitle);
+
+		b) CTSSocketServerManager anpassen
+		ACHTUNG: Format des Übertragungsbefehls beachten "#[Befehl]{{Param1|Param2|Param3}}" mit ParamX="{X}" und Befehl="WORKPROGRESS"
+		private void DoAskWorkProgress(int connId, string userName, string mapTitle, string workTitle)
+        {
+			// Information über Adapter anfordern und Antwort schicken
+            SendData(connId, String.Format("#WORKPROGRESS{{{0}|{1}|{2}|{3}}}", userName, mapTitle, workTitle, m_adapter.AskWorkProgress(userName, mapTitle,workTitle)));
+        }
+
+6) CTSSocketClientManager anpassen
+	a) CheckReceivedCommand(): neues Token abfangen
+		...
+		&& commandString.IndexOf("#KWORKPROGRESS") != 0     // einfügen
+
+	b) DoCommand(): neues Token Interpretieren
+		ACHTUNG: Parametertypen und Anzahl beachten!
+		....
+        else if (aCommands[0] == "#WORKPROGRESS")
+            DoWorkProgress(aTokens[0], aTokens[1], aTokens[2], Int32.Parse(aTokens[3]));
+		....
+
+        private void DoWorkProgress(string userName, string mapName, string workName, int retValue)
+        {
+            CTSClientEventArgs gea = new CTSClientEventArgs(CTSClientEventArgs.CommandType.WorkProgress, userName, mapName, workName, retValue);
+            m_parent.FireEvent(ref gea);
+
+            if (m_jobDone != null)
+                m_jobDone.Set();
+        }
+
+7) CTSClientEventArgs anpassen
+
+        - CommandType um Befehl "WorkProgress" erweitern und evt. Member, Property und konstruktor einfügen (z.B.: WorkName)
+		- CommandType im Delegaten implementieren (z.B.: in FrmContent_CTSClient) und Antwort merken
+			else if (ea.Command == CTSClientEventArgs.CommandType.WorkProgress)
+            {
+                if (ea.MapName == mapTitle && ea.WorkName == askWorkProgressWork)
+                    askWorkProgressReturn = ea.ReturnValue;
+            }
+
+
+8) Ausführen des Kommandos:
+		// Aufruf und Antwortauswertung
+        if (AppHandler.CtsClientManager.AskWorkProgress(AppHandler.MainForm.ActualUserName, mapTitle, askWorkProgressWork, ref jobDone) && askWorkProgressReturn >= 0)
+            iProgress = askWorkProgressReturn;

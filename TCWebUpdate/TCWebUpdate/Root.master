@@ -1,0 +1,113 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Root.master.cs" Inherits="TCWebUpdate.RootMaster" %>
+
+<%-- DXCOMMENT: Page Root.master is a master page that contains the root layout (it includes Header, Cental Area, and Footer) --%>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+</head>
+<body runat="server" id="Body">
+    <form id="form1" runat="server">
+        <dx:ASPxFormLayout ID="ASPxFormLayout1" runat="server">
+            <Items>
+                <dx:LayoutItem Caption="" ColSpan="1">
+                    <LayoutItemNestedControlCollection>
+                        <dx:LayoutItemNestedControlContainer runat="server">
+                            <dx:ASPxPanel ID="HeaderPane" runat="server" FixedPosition="WindowTop" ClientInstanceName="headerPane" CssClass="headerPane" Collapsible="True" Theme="Aqua">
+                                <SettingsAdaptivity CollapseAtWindowInnerWidth="250" />
+                                <Styles>
+                                    <Panel CssClass="panel"></Panel>
+                                    <ExpandedPanel CssClass="expandedPanel"></ExpandedPanel>
+                                    <ExpandBar CssClass="bar"></ExpandBar>
+                                </Styles>
+                                <PanelCollection>
+                                    <dx:PanelContent ID="panelContent" runat="server">
+                                            <div class="headerTop">
+                                                <div class="templateTitle">
+                                                    <dx:ASPxImage ID="ASPxImage1" runat="server" ShowLoadingImage="true" ImageUrl="~/Content/Images/Webtrain_38x38.png" ImageAlign="Middle"></dx:ASPxImage>
+                                                    <dx:ASPxLabel runat="server" ID="TitleLink" Text="Webtrain-Portal" Font-Size="Large" Theme="Aqua" Style="position: relative;top: 5px"></dx:ASPxLabel>
+                                                </div>
+                                            </div>
+                                            <div class="loginControl">
+                                                <dx:ASPxHyperLink runat="server" ID="LoginLink" NavigateUrl="~/Account/Login.aspx" Text="Anmelden | " Theme="Aqua" Font-Size="Medium" />
+                                                <dx:ASPxHyperLink runat="server" ID="RegisterLink" NavigateUrl="~/Account/Register.aspx" Text="Registrieren" Theme="Aqua" Font-Size="Medium" />
+                                            </div>
+                                            <div class="headerMenu">
+                                                <%-- DXCOMMENT: Configure the header menu --%>
+                                                <dx:ASPxMenu ID="HeaderMenu" runat="server" CssClass="headerMenu" ClientInstanceName="headerMenu" ItemAutoWidth="False" Width="100%" Theme="Aqua">
+                                                    <Items>
+                                                        <dx:MenuItem Text="Benutzerverwaltung" NavigateUrl="~/CampusPage.aspx"></dx:MenuItem>
+                                                        <dx:MenuItem Text="Benutzerprofil" NavigateUrl="~/UserProfilePage1.aspx">
+                                                        </dx:MenuItem>
+                                                        <dx:MenuItem Text="Inhalte" NavigateUrl="~/ContentEditorPage.aspx"></dx:MenuItem>
+                                                        <dx:MenuItem Text="Downloads" NavigateUrl="~/DownloadsPage.aspx"></dx:MenuItem>
+                                                        <dx:MenuItem Text="Webtrain-Module" NavigateUrl="~/WebtrainPackages.aspx"></dx:MenuItem>
+                                                    </Items>
+                                                </dx:ASPxMenu>
+                                            </div>
+
+                                    </dx:PanelContent>
+                                </PanelCollection>
+                                <ExpandBarTemplate>
+                                    <div id="test1" class="templateTitle">
+                                        <dx:ASPxImage ID="ASPxImage2" runat="server" ShowLoadingImage="true" ImageUrl="~/Content/Images/Webtrain_38x38.png" ImageAlign="Middle"></dx:ASPxImage>
+                                        <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Webtrain-Portal" Font-Size="Large" Theme="Aqua"></dx:ASPxLabel>
+                                        <dx:ASPxHyperLink runat="server" ID="LoginLinkSmall" OnLoad="LoginLinkSmall_OnLoad" NavigateUrl="~/Account/Login.aspx" Text="Anmelden" Theme="Aqua" CssClass="loginControlSmall" Font-Size="X-Small" />
+                                        <dx:ASPxHyperLink runat="server" ID="RegisterLinkSmall" OnLoad="RegisterLinkSmall_OnLoad" NavigateUrl="~/Account/Login.aspx" Text="Registrieren" Theme="Aqua" CssClass="loginControlSmall2" Font-Size="X-Small"/>
+                                    </div>
+                                </ExpandBarTemplate>
+                            </dx:ASPxPanel>
+
+                        </dx:LayoutItemNestedControlContainer>
+                    </LayoutItemNestedControlCollection>
+                </dx:LayoutItem>
+            </Items>
+
+        </dx:ASPxFormLayout>
+
+
+        <script type="text/javascript">
+            function updateHeaderMenuOrientation(){
+                var orientation = headerPane.IsExpandable() ? 'Vertical' : 'Horizontal';
+                if(orientation !== headerMenu.GetOrientation()) 
+                    headerMenu.SetOrientation(orientation);
+            }
+        </script>
+
+        <dx:ASPxGlobalEvents runat="server">
+            <ClientSideEvents ControlsInitialized="updateHeaderMenuOrientation" BrowserWindowResized="updateHeaderMenuOrientation" />
+        </dx:ASPxGlobalEvents>
+
+
+        <dx:ASPxPanel ID="MainPane" runat="server" CssClass="mainContentPane">
+            <PanelCollection>
+                <dx:PanelContent runat="server" >
+                    <asp:ContentPlaceHolder ID="Content" runat="server" />
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+        <dx:ASPxPanel ID="FooterPane" runat="server" FixedPosition="WindowBottom" ClientInstanceName="footerPane" CssClass="footerPane">
+            <SettingsAdaptivity HideAtWindowInnerWidth="350" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server">
+                        <div class="footerMenu">
+                        </div>
+                        <div class="copyright">
+                            <dx:ASPxLabel ID="ASPxLabel2" runat="server">
+                            </dx:ASPxLabel>
+                        </div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+    </form>
+</body>
+</html>
